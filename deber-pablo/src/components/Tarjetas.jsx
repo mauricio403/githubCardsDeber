@@ -10,7 +10,7 @@ import { CardList } from './ListaTarjetas';
 //padre hecho funcion
 
 
-export const Tarjetas2 = ({tittle}) => {
+export const Tarjetas2 = () => {
 
   const [profiles, setProfiles] = useState([]);
 
@@ -23,7 +23,7 @@ export const Tarjetas2 = ({tittle}) => {
 
   return (
     <div>
-        <div className="header">{tittle}</div>
+        <div className="header">GitHub Perfiles</div>
         <Formulario onSubmit={addNewProfile} />
         <CardList profiles={profiles} />
     </div>
