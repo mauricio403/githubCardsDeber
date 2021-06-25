@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './components/App';
+import { Tarjetas2 } from './components/Tarjetas';
 
 
 ReactDOM.render(
  
-    <App />,
+    <Tarjetas2 />,
   document.getElementById('root')
 );
 
